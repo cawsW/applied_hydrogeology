@@ -1,6 +1,5 @@
 import pymake
 
-
 def make_mf2005():
     pymake.build_apps("mf2005", verbose=True)
 

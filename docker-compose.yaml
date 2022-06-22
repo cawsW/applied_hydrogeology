@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  test:
+    container_name: "applied_hydrology"
+    build:
+      context: ./notebook
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebook:/app
