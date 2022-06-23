@@ -1,6 +1,6 @@
 notebook
 scipy
-numpy
+numpy==1.22
 matplotlib
 seaborn
 psycopg2-binary

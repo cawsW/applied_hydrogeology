@@ -38,4 +38,4 @@ RUN pip install -r requirements.txt
 RUN pip install git+https://github.com/python-visualization/folium
 RUN pip install GDAL==$(gdal-config --version) --global-option=build_ext --global-option="-I/usr/include/gdal"
 EXPOSE 8888
-CMD ["jupyter", "notebook", "--no-browser", "--NotebookApp.token=mypwd", "--port", "8888", "--ip", "0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--no-browser", "--NotebookApp.token=super", "--port", "8888", "--ip", "0.0.0.0", "--allow-root"]

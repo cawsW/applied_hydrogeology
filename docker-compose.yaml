@@ -5,6 +5,6 @@ services:
     build:
       context: ./notebook
     ports:
-      - 8888:8888
+      - 8010:8888
     volumes:
       - ./notebook:/app
