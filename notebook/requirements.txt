@@ -8,11 +8,11 @@ pandas
 geopandas
 scikit-learn
 fiona
-shapely
+Shapely
 pyproj
 plotly
 rasterio
 scikit-gstat
 statsmodels
 flopy
-earthengine-api
+pyshp==2.3.0
